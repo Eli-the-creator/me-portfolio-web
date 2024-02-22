@@ -239,7 +239,7 @@ export default function ShowTime() {
           {/* Cross-Platform */}
           <TabsContent value="Cross-Platform" className="pt-4 mb-6">
             <div className="mb-8 text-center font-semibold bg-slate-100/40 border-2 border-red-600/40 rounded-full py-2">
-              <h3 className="text-red-700/90 sm:text-sm mb-2">
+              <h3 className="text-red-700/90 sm:text-sm m-2">
                 🚨 Przez nowe regulaminy App Storów są niedostępne 🚨
               </h3>
               <p className="font-light">

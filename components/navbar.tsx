@@ -8,7 +8,7 @@ export const Navbar = ({ className }: { className?: string }) => {
   return (
     <div
       className={cn(
-        "flex w-[60%] fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.3] bg-slate-50/90 rounded-full z-[5000] pr-2 pl-8 py-2  items-center justify-between  space-x-4",
+        "flex w-[60%] fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.3] bg-slate-50/90 rounded-full z-[100] pr-2 pl-8 py-2  items-center justify-between  space-x-4",
         className
       )}
     >

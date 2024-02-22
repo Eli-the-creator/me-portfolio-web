@@ -96,8 +96,11 @@ export default function CaseCart({ showCases }) {
                             </CarouselItem>
                           ))}
                         </CarouselContent>
-                        <CarouselPrevious variant={"outline"} />
-                        <CarouselNext variant={"outline"} />
+                        <CarouselPrevious
+                          className="left-4 top-1/2"
+                          variant={"outline"}
+                        />
+                        <CarouselNext className="right-4" variant={"outline"} />
                       </Carousel>
                     </div>
                     <div className="">
@@ -158,7 +161,7 @@ export function CaseCartDevelopNow({ showCases }) {
             <CardDescription>{el.subTitle}</CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="bg-slate-300 w-[310px] h-[320px] rounded-md flex justify-center items-center">
+            <div className="bg-slate-300 w-auto h-[320px] rounded-md flex justify-center items-center">
               <a
                 target="_blank"
                 href="https://github.com/Eli-the-creator"

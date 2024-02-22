@@ -12,64 +12,63 @@ import {
 export default function About() {
   return (
     <div className="flex col-span-2 md:col-span-1 flex-col items-start h-full text-stone-100 ">
-      <div className="flex flex-row justify-between items-center w-full">
-        <div className="w-full h-full flex justify-center items-center">
-          <span>
+      <div className="flex flex-row sm:flex-col justify-between items-center w-full">
+        <div className="w-full h-full flex justify-between items-center">
+          <div className="text-left mb-4">
             <h2 className="text-4xl font-extrabold italic mb-4">
               Eliasz Zakrzewki
             </h2>
             <h4 className="text-xl font-light text-stine-100">
               Iliya Zakrevskyi
             </h4>
-          </span>
-        </div>
-        {/* <div className="w-[50%] bg-red-500 flex justify-center items-center rounded-3xl mb-4"> */}
-        <Carousel
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-        >
-          <CarouselContent className="">
-            <CarouselItem>
-              <Image
-                width={280}
-                height={450}
-                src={"/me/3.jpeg"}
-                className="rounded-xl"
-                alt={"Last one"}
-              />
-            </CarouselItem>
-            <CarouselItem className="">
-              <Image
-                width={280}
-                height={450}
-                src={"/me/1.jpeg"}
-                className="rounded-xl"
-                alt={"Me doint this portfolio-web about me self"}
-              />
-            </CarouselItem>
-            <CarouselItem className="">
-              <Image
-                width={280}
-                height={450}
-                src={"/me/2.jpeg"}
-                className="rounded-xl"
-                alt={"Also me"}
-              />
-            </CarouselItem>
-          </CarouselContent>
-          <CarouselPrevious className="-left-4 text-stone-400" />
-          <CarouselNext className="-right-4 text-stone-400" />
-        </Carousel>
-        {/* <Image
+          </div>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="md:block hidden"
+          >
+            <CarouselContent className="">
+              <CarouselItem>
+                <Image
+                  width={280}
+                  height={450}
+                  src={"/me/3.jpeg"}
+                  className="rounded-xl"
+                  alt={"Last one"}
+                />
+              </CarouselItem>
+              <CarouselItem className="">
+                <Image
+                  width={280}
+                  height={450}
+                  src={"/me/1.jpeg"}
+                  className="rounded-xl"
+                  alt={"Me doint this portfolio-web about me self"}
+                />
+              </CarouselItem>
+              <CarouselItem className="">
+                <Image
+                  width={280}
+                  height={450}
+                  src={"/me/2.jpeg"}
+                  className="rounded-xl"
+                  alt={"Also me"}
+                />
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious className="-left-4 text-stone-400" />
+            <CarouselNext className="-right-4 text-stone-400" />
+          </Carousel>
+          {/* <Image
             className="rounded-xl"
             src="/me.jpg"
             alt="me"
             height={220}
             width={220}
-          /> */}
-        {/* </div> */}
+        /> */}
+        </div>
       </div>
       <div className="">
         <div className="flex flex-col mb-6 justify-between text-xl px-6">

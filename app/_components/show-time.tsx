@@ -8,7 +8,7 @@ import TechStack from "@/components/tech-stack";
 export function LayoutGridDemo() {
   return (
     <div className="h-full w-full">
-      <p className="text-center">Click to see more</p>
+      <p className="text-center text-slate-50">Click to see more</p>
       <LayoutGrid cards={cards} />
     </div>
   );
@@ -31,7 +31,7 @@ const cards = [
     id: 1,
     content: <SkeletonOne />,
     className: "md:col-span-3 rounded-xl",
-    prevueText: "MY TECH STACK",
+    prevueText: "TECH STACK",
     thumbnail:
       "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },

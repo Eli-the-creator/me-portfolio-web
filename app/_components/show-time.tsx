@@ -8,7 +8,7 @@ import TechStack from "@/components/tech-stack";
 export function LayoutGridDemo() {
   return (
     <div className="h-full w-full">
-      <p className="text-center text-slate-50">Click to see more</p>
+
       <LayoutGrid cards={cards} />
     </div>
   );

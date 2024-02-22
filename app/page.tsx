@@ -10,8 +10,9 @@ export default function Home() {
           <Image fill className="w-full h-full" src="/asset_bg.png" alt="bg" />
         </div>
 
-        <div className="relative px-4 md:px-24 z-50">
+        <div className="relative  md:px-24 z-50">
           <NameSection />
+          <p className="text-center text-slate-50">Click to see more</p>
           <div className="h-[40vh]">
             <LayoutGridDemo />
           </div>

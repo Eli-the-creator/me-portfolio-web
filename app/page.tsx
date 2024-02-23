@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <main className="relative w-screen h-screen">
-        <div className="fixed w-full h-full z-10">
+        <div className="fixed w-full h-[calc(100dvh)] z-10">
           <Image fill className="w-full h-full" src="/asset_bg.png" alt="bg" />
         </div>
 

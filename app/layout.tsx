@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(montser.className, "antialiased")}>
+      <body className={cn(montser.className, "antialiased bg-sky-600/70")}>
         <Navbar />
         {children}
       </body>

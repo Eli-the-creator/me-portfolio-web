@@ -4,7 +4,7 @@ import { LayoutGridDemo } from "./_components/show-time";
 
 export default function Home() {
   return (
-    <main className="relative w-screen h-[calc(100dvh)]">
+    <main className="relative w-screen h-[calc(100vh)]">
       <div className="fixed w-full h-full z-10">
         <Image
           priority={true}
